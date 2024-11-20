@@ -19,6 +19,15 @@ public class Person implements Comparable<Person>
     }
 
 
+    /* IF you want to sort by name
+
+    public int compareTo (Person other) {
+        return this.name.compareTo(other.name);
+    }
+
+    */
+
+
 
     public String toString()
     {
